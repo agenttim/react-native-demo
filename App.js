@@ -1,26 +1,18 @@
 import React, {useState} from "react";
-import { StyleSheet, Text, View, ScrollView, FlatList } from 'react-native';
-import {Navbar} from "./src/Navbar";
-import {AddTodo} from "./src/AddTodo";
-import {Todo} from "./src/Todo";
+import { StyleSheet, View} from 'react-native';
+import {Navbar} from "./src/components/Navbar";
+import {MainScreen} from "./src/screens/MainScreen";
+import {TodoScreen} from "./src/screens/TodoScreen";
+import {LoremIpsum, Avatar, loremIpsum} from 'react-lorem-ipsum';
 
 export default function App() {
+    const [todoId, setTodoId] = useState(null)
     const [todos, setTodos] = useState([
-        {id: 1, title: 'Задача 1'},
-        {id: 2, title: 'Задача 2'},
-        {id: 3, title: 'Задача 3'},
-        {id: 4, title: 'Задача 4'},
-        {id: 5, title: 'Задача 5'},
-        {id: 6, title: 'Задача 6'},
-        {id: 7, title: 'Задача 7'},
-        {id: 8, title: 'Задача 8'},
-        {id: 9, title: 'Задача 9'},
-        {id: 10, title: 'Задача 10'},
-        {id: 11, title: 'Задача 11'},
-        {id: 12, title: 'Задача 12'},
-        {id: 13, title: 'Задача 13'},
-        {id: 14, title: 'Задача 14'},
-        {id: 15, title: 'Задача 15'},
+        {id: '1', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
+        {id: '2', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
+        {id: '3', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
+        {id: '4', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
+        {id: '5', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
     ])
 
     const addTodo = (title) => {
@@ -36,17 +28,24 @@ export default function App() {
         setTodos(prev => prev.filter(todo => todo.id !== id))
     }
 
+    let content = (<MainScreen
+            todos={todos}
+            addTodo={addTodo}
+            removeTodo={removeTodo}
+            openTodo={setTodoId}
+        />
+    )
+
+    if (todoId) {
+        const selectedTodo = todos.find(todo => todo.id === todoId)
+        content = <TodoScreen goBack={() => setTodoId(null)} todo={selectedTodo} />
+    }
+
     return (
         <View>
             <Navbar title="Todo App!" />
             <View style={styles.container}>
-                <AddTodo onSubmit={addTodo} />
-
-                <FlatList
-                    keyExtractor={item => item.id.toString()}
-                    data={todos}
-                    renderItem={({item}) => (<Todo todo={item} onRemove={removeTodo} />)}
-                />
+                { content }
             </View>
         </View>
     );
