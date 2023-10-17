@@ -13,13 +13,13 @@ export const Navbar = ({title}) => {
 const styles = StyleSheet.create({
     navbar: {
         height: 70,
-        alignItems: "center",
-        justifyContent: "flex-end",
+        alignItems: 'center',
+        justifyContent: 'flex-end',
         backgroundColor: '#5427d0',
         paddingBottom: 10
     },
     text: {
-        color: "white",
+        color: 'white',
         fontSize: 20
 
     }

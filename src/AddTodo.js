@@ -35,7 +35,7 @@ export const AddTodo = ({ onSubmit }) => {
 
 const styles = StyleSheet.create({
     block: {
-        flexDirection: "row",
+        flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
         marginBottom: 15
@@ -43,10 +43,8 @@ const styles = StyleSheet.create({
     input: {
         width: '70%',
         padding: 10,
-        borderStyle: "solid",
+        borderStyle: 'solid',
         borderBottomWidth: 2,
         borderBottomColor: "#3949ab"
-    },
-    button: {
     }
 })

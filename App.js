@@ -27,9 +27,13 @@ export default function App() {
 
         setTodos(prev => [
             ...prev, {
-            id: Date.now().toString(),
-            title: title
-        }])
+                id: Date.now().toString(),
+                title: title
+            }])
+    }
+
+    const removeTodo = id => {
+        setTodos(prev => prev.filter(todo => todo.id !== id))
     }
 
     return (
@@ -41,7 +45,7 @@ export default function App() {
                 <FlatList
                     keyExtractor={item => item.id.toString()}
                     data={todos}
-                    renderItem={({item}) => (<Todo todo={item} />)}
+                    renderItem={({item}) => (<Todo todo={item} onRemove={removeTodo} />)}
                 />
             </View>
         </View>
@@ -51,6 +55,6 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         paddingHorizontal: 30,
-        paddingVertical: 20
+        paddingVertical: 20,
     }
 });
