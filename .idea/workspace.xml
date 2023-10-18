@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="добавил карточку задачи">
-      <change afterPath="$PROJECT_DIR$/src/components/ui/AppCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
+    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="оформил карточку задачи">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddTodo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/TodoScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TodoScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +59,7 @@
       <updated>1697428396695</updated>
       <workItem from="1697428398177" duration="34000" />
       <workItem from="1697429205765" duration="21000" />
-      <workItem from="1697429228641" duration="42310000" />
+      <workItem from="1697429228641" duration="45315000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -99,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697536087735</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="оформил карточку задачи">
+      <created>1697600715073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697600715073</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +126,8 @@
     <MESSAGE value="добавили функцию скролла" />
     <MESSAGE value="реализовал удаление записей" />
     <MESSAGE value="добавил карточку задачи" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил карточку задачи" />
+    <MESSAGE value="оформил карточку задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="оформил карточку задачи" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
