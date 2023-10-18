@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="добавил картинку вместо пустого списка">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
+    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="перед обновлением expo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -29,6 +27,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2WpTCXkmmy2SSXKtppWorVqaMB9" />
   <component name="ProjectViewState">
@@ -65,7 +66,7 @@
       <workItem from="1697428398177" duration="34000" />
       <workItem from="1697429205765" duration="21000" />
       <workItem from="1697429228641" duration="45553000" />
-      <workItem from="1697604266436" duration="17946000" />
+      <workItem from="1697604266436" duration="18910000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697628335999</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="перед обновлением expo">
+      <created>1697630957981</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697630957981</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +173,8 @@
     <MESSAGE value="модальное окно редактирования задачи" />
     <MESSAGE value="функционал редактирования задачи" />
     <MESSAGE value="добавил картинку вместо пустого списка" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил картинку вместо пустого списка" />
+    <MESSAGE value="перед обновлением expo" />
+    <option name="LAST_COMMIT_MESSAGE" value="перед обновлением expo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

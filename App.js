@@ -5,7 +5,7 @@ import {MainScreen} from "./src/screens/MainScreen";
 import {TodoScreen} from "./src/screens/TodoScreen";
 import {loremIpsum} from 'react-lorem-ipsum';
 import * as Font from 'expo-font';
-import { AppLoading } from 'expo-app-loading';
+import AppLoading from 'expo-app-loading';
 
 async function loadApplication() {
     await Font.loadAsync({
