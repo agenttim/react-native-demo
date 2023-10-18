@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="добавил алерт при удалении">
-      <change afterPath="$PROJECT_DIR$/src/components/EditModal.js" afterDir="false" />
+    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="модальное окно редактирования задачи">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/TodoScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TodoScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cidr.known.project.marker": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\react-native-demo\src\components" />
@@ -60,7 +61,7 @@
       <workItem from="1697428398177" duration="34000" />
       <workItem from="1697429205765" duration="21000" />
       <workItem from="1697429228641" duration="45553000" />
-      <workItem from="1697604266436" duration="3219000" />
+      <workItem from="1697604266436" duration="12981000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697603819654</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="модальное окно редактирования задачи">
+      <created>1697609585458</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697609585458</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +144,8 @@
     <MESSAGE value="добавил карточку задачи" />
     <MESSAGE value="оформил карточку задачи" />
     <MESSAGE value="добавил алерт при удалении" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил алерт при удалении" />
+    <MESSAGE value="модальное окно редактирования задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="модальное окно редактирования задачи" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

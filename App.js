@@ -8,11 +8,11 @@ import {LoremIpsum, Avatar, loremIpsum} from 'react-lorem-ipsum';
 export default function App() {
     const [todoId, setTodoId] = useState(null)
     const [todos, setTodos] = useState([
-        {id: '1', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
-        {id: '2', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
-        {id: '3', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
-        {id: '4', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
-        {id: '5', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1})},
+        {id: '1', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
+        {id: '2', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
+        {id: '3', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
+        {id: '4', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
+        {id: '5', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
     ])
 
     const addTodo = (title) => {
@@ -47,6 +47,15 @@ export default function App() {
         )
     }
 
+    const updateTodo = (id, title) => {
+        setTodos(old => old.map(todo => {
+            if (todo.id === id) {
+                todo.title = title
+            }
+            return todo
+        }))
+    }
+
     let content = (<MainScreen
             todos={todos}
             addTodo={addTodo}
@@ -62,13 +71,14 @@ export default function App() {
                 onRemove={removeTodo}
                 goBack={() => setTodoId(null)}
                 todo={selectedTodo}
+                onSave={updateTodo}
             />
         )
     }
 
     return (
         <View>
-            <Navbar title="Todo App!" />
+            <Navbar title="DexterMed" />
             <View style={styles.container}>
                 { content }
             </View>
