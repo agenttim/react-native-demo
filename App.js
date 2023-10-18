@@ -8,11 +8,18 @@ import {LoremIpsum, Avatar, loremIpsum} from 'react-lorem-ipsum';
 export default function App() {
     const [todoId, setTodoId] = useState(null)
     const [todos, setTodos] = useState([
-        {id: '1', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
-        {id: '2', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
-        {id: '3', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
-        {id: '4', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
-        {id: '5', title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()},
+        {
+            id: '1',
+            title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()
+        },
+        {
+            id: '2',
+            title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()
+        },
+        {
+            id: '3',
+            title: loremIpsum({random: true, startWithLoremIpsum: false, avgSentencesPerParagraph: 1}).toString()
+        }
     ])
 
     const addTodo = (title) => {

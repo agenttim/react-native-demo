@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="модальное окно редактирования задачи">
+    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="функционал редактирования задачи">
+      <change afterPath="$PROJECT_DIR$/assets/no-items.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/TodoScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TodoScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/MainScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MainScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\react-native-demo\assets" />
       <recent name="D:\Projects\react-native-demo\src\components" />
     </key>
   </component>
@@ -61,7 +62,7 @@
       <workItem from="1697428398177" duration="34000" />
       <workItem from="1697429205765" duration="21000" />
       <workItem from="1697429228641" duration="45553000" />
-      <workItem from="1697604266436" duration="12981000" />
+      <workItem from="1697604266436" duration="15528000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -119,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697609585458</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="функционал редактирования задачи">
+      <created>1697625090285</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697625090285</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +153,8 @@
     <MESSAGE value="оформил карточку задачи" />
     <MESSAGE value="добавил алерт при удалении" />
     <MESSAGE value="модальное окно редактирования задачи" />
-    <option name="LAST_COMMIT_MESSAGE" value="модальное окно редактирования задачи" />
+    <MESSAGE value="функционал редактирования задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="функционал редактирования задачи" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
