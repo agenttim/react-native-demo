@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="функционал редактирования задачи">
-      <change afterPath="$PROJECT_DIR$/assets/no-items.png" afterDir="false" />
+    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="добавил картинку вместо пустого списка">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/MainScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MainScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\react-native-demo\assets\fonts" />
       <recent name="D:\Projects\react-native-demo\assets" />
       <recent name="D:\Projects\react-native-demo\src\components" />
     </key>
@@ -62,7 +65,7 @@
       <workItem from="1697428398177" duration="34000" />
       <workItem from="1697429205765" duration="21000" />
       <workItem from="1697429228641" duration="45553000" />
-      <workItem from="1697604266436" duration="15528000" />
+      <workItem from="1697604266436" duration="17946000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697625090285</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="добавил картинку вместо пустого списка">
+      <created>1697628335999</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697628335999</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +164,8 @@
     <MESSAGE value="добавил алерт при удалении" />
     <MESSAGE value="модальное окно редактирования задачи" />
     <MESSAGE value="функционал редактирования задачи" />
-    <option name="LAST_COMMIT_MESSAGE" value="функционал редактирования задачи" />
+    <MESSAGE value="добавил картинку вместо пустого списка" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил картинку вместо пустого списка" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
