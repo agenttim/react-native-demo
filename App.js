@@ -6,6 +6,7 @@ import {TodoScreen} from "./src/screens/TodoScreen";
 import {loremIpsum} from 'react-lorem-ipsum';
 import * as Font from 'expo-font';
 import AppLoading from 'expo-app-loading';
+import {THEME} from "./src/theme";
 
 async function loadApplication() {
     await Font.loadAsync({
@@ -116,7 +117,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
     container: {
-        paddingHorizontal: 30,
+        paddingHorizontal: THEME.PADDING_HORIZONTAL,
         paddingVertical: 20,
     }
 });

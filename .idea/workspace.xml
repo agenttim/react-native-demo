@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="Подправил баги">
+    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="Оптимизировал navbar для разных платформ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddTodo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/MainScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MainScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/TodoScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TodoScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +70,7 @@
       <workItem from="1697429205765" duration="21000" />
       <workItem from="1697429228641" duration="45553000" />
       <workItem from="1697604266436" duration="19250000" />
-      <workItem from="1697685052827" duration="14402000" />
+      <workItem from="1697685052827" duration="21515000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -172,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697706158784</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Оптимизировал navbar для разных платформ">
+      <created>1697707784107</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697707784107</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +217,8 @@
     <MESSAGE value="Добавил компоненты для текста" />
     <MESSAGE value="Добавил иконки из expo" />
     <MESSAGE value="Подправил баги" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подправил баги" />
+    <MESSAGE value="Оптимизировал navbar для разных платформ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оптимизировал navbar для разных платформ" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
