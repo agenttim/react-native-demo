@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {View, Text, StyleSheet, TextInput, Button, Modal, Alert} from 'react-native';
+import {View, StyleSheet, TextInput, Button, Modal, Alert} from 'react-native';
 import {THEME} from "../theme";
 
 export const EditModal = ({visible, onCancel, value, onSave}) => {

@@ -33,6 +33,7 @@ export default function App() {
     ])
 
     if (!isReady) {
+
         return (<AppLoading
                 startAsync={loadApplication}
                 onError={err => console.log(err)}
@@ -40,6 +41,7 @@ export default function App() {
             />
         )
     }
+
 
     const addTodo = (title) => {
 
