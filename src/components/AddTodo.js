@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import {View, StyleSheet, TextInput, Button, Alert} from 'react-native';
+import {View, StyleSheet, TextInput, Button, Alert, Keyboard} from 'react-native';
 import {THEME} from "../theme";
-import { AntDesign } from '@expo/vector-icons';
+import {AntDesign} from '@expo/vector-icons';
 
-export const AddTodo = ({ onSubmit }) => {
+export const AddTodo = ({onSubmit}) => {
     const [value, setValue] = useState('')
 
 
@@ -11,6 +11,7 @@ export const AddTodo = ({ onSubmit }) => {
         if (value.trim()) {
             onSubmit(value)
             setValue('')
+            Keyboard.dismiss()
         } else {
             Alert.alert('Название дела не может быть пустым ')
         }
@@ -30,11 +31,6 @@ export const AddTodo = ({ onSubmit }) => {
             <AntDesign.Button name='pluscircleo' onPress={pressHandler}>
                 Добавить
             </AntDesign.Button>
-            {/*<Button
-                style={styles.button}
-                title='Добавить' onPress={pressHandler}
-                color={THEME.MAIN_COLOR}
-            />*/}
         </View>
     )
 }

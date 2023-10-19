@@ -38,7 +38,7 @@ export const TodoScreen = ({ goBack, todo, onRemove, onSave }) => {
                     </AppButton>
                 </View>
                 <View style={styles.button}>
-                    <AppButton color={THEME.DANGER_COLOR}>
+                    <AppButton onPress={() => onRemove(todo.id)} color={THEME.DANGER_COLOR}>
                         <FontAwesome name='remove' size={20} />
                     </AppButton>
 
