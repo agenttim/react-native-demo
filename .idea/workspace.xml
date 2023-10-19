@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ui/AppText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/AppTextBold.js" afterDir="false" />
+    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="Добавил компоненты для текста">
+      <change afterPath="$PROJECT_DIR$/src/components/ui/AppButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddTodo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/EditModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/TodoScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TodoScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +70,7 @@
       <workItem from="1697429205765" duration="21000" />
       <workItem from="1697429228641" duration="45553000" />
       <workItem from="1697604266436" duration="19250000" />
-      <workItem from="1697685052827" duration="8096000" />
+      <workItem from="1697685052827" duration="11111000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -160,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697631835989</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Добавил компоненты для текста">
+      <created>1697695912928</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697695912928</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +193,8 @@
     <MESSAGE value="добавил картинку вместо пустого списка" />
     <MESSAGE value="перед обновлением expo" />
     <MESSAGE value="конец дня,приложение работает с предупреждением о том, что компонент AppLoading из библиотеки expo-app-loading устарел и больше не рекомендуется к использованию в новых проектах Expo. Вместо AppLoading рекомендуется использовать новые API из библиотеки expo-splash-screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="конец дня,приложение работает с предупреждением о том, что компонент AppLoading из библиотеки expo-app-loading устарел и больше не рекомендуется к использованию в новых проектах Expo. Вместо AppLoading рекомендуется использовать новые API из библиотеки expo-splash-screen." />
+    <MESSAGE value="Добавил компоненты для текста" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил компоненты для текста" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
