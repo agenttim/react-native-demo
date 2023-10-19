@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="Добавил иконки из expo">
+    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="Подправил баги">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddTodo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/AppButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/AppButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/TodoScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TodoScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <workItem from="1697429205765" duration="21000" />
       <workItem from="1697429228641" duration="45553000" />
       <workItem from="1697604266436" duration="19250000" />
-      <workItem from="1697685052827" duration="13249000" />
+      <workItem from="1697685052827" duration="14402000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -167,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697704148498</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Подправил баги">
+      <created>1697706158784</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697706158784</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +204,8 @@
     <MESSAGE value="конец дня,приложение работает с предупреждением о том, что компонент AppLoading из библиотеки expo-app-loading устарел и больше не рекомендуется к использованию в новых проектах Expo. Вместо AppLoading рекомендуется использовать новые API из библиотеки expo-splash-screen." />
     <MESSAGE value="Добавил компоненты для текста" />
     <MESSAGE value="Добавил иконки из expo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил иконки из expo" />
+    <MESSAGE value="Подправил баги" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подправил баги" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
