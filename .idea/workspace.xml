@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="рефакторинг редюсера">
+      <change afterPath="$PROJECT_DIR$/src/context/screen/ScreenState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/screen/screenContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/screen/screenReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/todo/TodoState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/todo/TodoState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/todo/todoReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/todo/todoReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cidr.known.project.marker": "true",
+    "js.last.introduce.type": "CONST",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\react-native-demo\assets\fonts" />
@@ -65,7 +73,7 @@
       <workItem from="1697429205765" duration="21000" />
       <workItem from="1697429228641" duration="45553000" />
       <workItem from="1697604266436" duration="19250000" />
-      <workItem from="1697685052827" duration="32467000" />
+      <workItem from="1697685052827" duration="36408000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -200,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697778486086</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="рефакторинг редюсера">
+      <created>1697781714563</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697781714563</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
