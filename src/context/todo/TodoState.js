@@ -1,9 +1,10 @@
-import React, { useReducer } from "react";
+import React, {useReducer} from "react";
 import {TodoContext} from './todoContext'
 import {todoReducer} from "./todoReducer";
 import {loremIpsum} from "react-lorem-ipsum";
+import {ADD_TODO, REMOVE_TODO, UPDATE_TODO} from "../types";
 
-export const TodoState = ({ children }) => {
+export const TodoState = ({children}) => {
     const initialState = {
         todos: [
             {
@@ -23,12 +24,18 @@ export const TodoState = ({ children }) => {
 
     const [state, dispatch] = useReducer(todoReducer, initialState)
 
+    const addTodo = title => dispatch({type: ADD_TODO, title: title})
+
+    const removeTodo = id => dispatch({type: REMOVE_TODO, id})
+
+    const updateTodo = (id, title) => dispatch({type: UPDATE_TODO, id, title})
+
     return (
         <TodoContext.Provider
             value={{
-                todos: state.todos
+                todos: state.todos, addTodo, removeTodo, updateTodo
             }}
         >
-            { children }
+            {children}
         </TodoContext.Provider>)
 }
