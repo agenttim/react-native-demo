@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="завершение рефакторинга">
+    <list default="true" id="f8bdc4c9-d98a-4ed5-a4d3-29fc0382c1bb" name="Changes" comment="реализовал запись и загрузку с сервера">
+      <change afterPath="$PROJECT_DIR$/src/components/ui/AppLoader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/todo/TodoState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/todo/TodoState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/todo/todoReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/todo/todoReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/MainScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MainScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,7 @@
       <workItem from="1697429205765" duration="21000" />
       <workItem from="1697429228641" duration="45553000" />
       <workItem from="1697604266436" duration="19250000" />
-      <workItem from="1697685052827" duration="47188000" />
+      <workItem from="1697685052827" duration="49364000" />
     </task>
     <task id="LOCAL-00001" summary="реализовал добавление задачи в список">
       <created>1697453822470</created>
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697793480073</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="реализовал запись и загрузку с сервера">
+      <created>1697802561704</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1697802561704</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +272,8 @@
     <MESSAGE value="рефакторинг редюсера" />
     <MESSAGE value="изменение экрана" />
     <MESSAGE value="завершение рефакторинга" />
-    <option name="LAST_COMMIT_MESSAGE" value="завершение рефакторинга" />
+    <MESSAGE value="реализовал запись и загрузку с сервера" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализовал запись и загрузку с сервера" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,7 +7,7 @@ export const Navbar = ({title}) => {
     return (
         <View style={{...styles.navbar, ...Platform.select({
                 ios: styles.navbarIOs,
-                android: styles.navbarIOs
+                android: styles.navbarAndroid
             })}}>
             <AppTextBold style={styles.text}>{title}</AppTextBold>
         </View>
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         backgroundColor: THEME.MAIN_COLOR,
     },
     text: {
-        color: Platform.OS === 'android' ? THEME.MAIN_COLOR : '#fff',
+        color: Platform.OS === 'ios' ? THEME.MAIN_COLOR : '#fff',
         fontSize: 20
     }
 })
