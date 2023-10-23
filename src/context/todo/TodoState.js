@@ -50,8 +50,13 @@ export const TodoState = ({children}) => {
                 {
                     text: 'Удалить',
                     style: 'destructive',
-                    onPress: () => {
+                    onPress: async () => {
                         changeScreen(null)
+                        await fetch(`https://rn-todo-app-cec53-default-rtdb.europe-west1.firebasedatabase.app/todos/${id}.json`, {
+                                method: 'DELETE',
+                                headers: {'Content-Type': 'application/json'}
+                            }
+                        )
                         dispatch({type: REMOVE_TODO, id})
                     }
                 }
